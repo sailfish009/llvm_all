@@ -13,6 +13,8 @@ cd llvm_all
 
 cp *.sh ../llvm-project/
 
+cd ../llvm-project/
+
 set.sh
 
 install.sh
