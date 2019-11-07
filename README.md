@@ -15,8 +15,8 @@ cp *.sh ../llvm-project/
 
 cd ../llvm-project/
 
-set.sh
+./set.sh
 
-install.sh
+./install.sh
 
-install_lldb.sh
+./install_lldb.sh
