@@ -15,6 +15,8 @@ cp *.sh ../llvm-project/
 
 cd ../llvm-project/
 
+[optional] patch -p1  < ../llvm_all/D78358.diff
+
 ./set.sh
 
 ./install.sh
